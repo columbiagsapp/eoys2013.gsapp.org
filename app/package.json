@@ -1,0 +1,14 @@
+{
+  "name": "GSAPP_End_of_Year_Show_2013",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.2.0",
+    "ejs": "*",
+    "less-middleware": "*",
+    "ejs-locals": "*"
+  }
+}

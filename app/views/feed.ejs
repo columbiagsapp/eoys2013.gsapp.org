@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <%- partial('partials/head', {title:title}) %>
+    <script>
+      function imgError(image) {
+          image.onerror = "";
+          image.src = "/images/noimage.gif";
+          return true;
+      }
+    </script>
+  </head> 
+
+
+  <body>
+
+    <div id="wrapper">  
+      <%- partial('partials/header') %>
+
+      <div id="main">
+        <div id="preloader"><img src="/images/preloader.gif"></div>
+        <div id="prev"></div>
+        <div id="next"></div>
+        <div id="feed-label"><div></div></div>
+        <img id="image" src="" onerror="imgError(this);">
+      </div>
+
+    </div><!-- /#wrapper -->
+    <%- partial('partials/footer') %>
+
+    <%- partial('partials/scripts') %>
+
+
+
+  </body>
+</html>

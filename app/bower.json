@@ -1,0 +1,8 @@
+{
+  "name": "GSAPP_End_of_Year_Show_2013",
+  "version": "0.0.1",
+  "dependencies": {
+    "requirejs": null,
+    "jquery": null
+  }
+}

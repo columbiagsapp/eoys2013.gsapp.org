@@ -1,0 +1,204 @@
+body{
+  height:100%;
+  width:100%;
+  overflow:hidden;
+  font-family: "Geometric212W01-HeavyCd", Futura, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 27px;
+  color: black;
+}
+
+body.index{
+  height:auto;
+  overflow-y:scroll;
+  background-color: black;
+  color: white;
+  font-family: "Geometric212W01-BookCd", Futura, Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#wrapper{
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  text-align: center;
+}
+
+#buffer{
+  display: none;
+}
+
+#header{
+  position:fixed;
+  width:100%;
+  z-index:100;
+  margin-top:38px;
+}
+
+#header-container{
+  margin:0 auto;
+}
+
+#header h2{
+  margin-bottom:15px;
+  margin-top: 0 !important;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 33px;
+  font-weight: normal;
+}
+
+body.index #header a{
+  color:white;
+}
+
+#prev{
+  position:fixed;
+  z-index:99;
+  opacity:0;
+  width:50%;
+  height:100%;
+  top:0;
+  left:0;
+}
+
+#next{
+  position:fixed;
+  z-index:99;
+  opacity:0;
+  width:50%;
+  height:100%;
+  top:0;
+  left:50%;
+}
+
+#next:hover{
+  cursor: url(/images/cursor-right.png), auto;
+}
+
+#prev:hover{
+  cursor: url(/images/cursor-left.png), auto;
+}
+
+#image{
+  min-width:100%;
+  width:auto;
+  min-height:100%;
+  height:auto;
+  position:absolute;
+  top:0;
+  left:0;
+  opacity:0;
+}
+
+#feed-label{
+  position:absolute;
+  bottom:35px;
+  width:100%;
+  z-index:98;
+  text-align: center;
+  font-size: 36px;
+}
+
+#feed-label > div{
+  margin:0 auto;
+}
+
+.label{
+  margin-top: 15px;
+}
+
+#index{
+  z-index:1000;
+  width:90%;
+  margin:0 auto;
+  margin-top:7.5em;
+}
+
+.row{
+  width:100%;
+  margin-bottom:30px;
+  float:left;
+  clear:both;
+}
+
+.column{
+  width:30%;
+  margin-right:5%;
+  float:left;
+}
+
+.column img{
+  width:100%;
+  height:auto;
+}
+
+.end{
+  margin-right:0;
+}
+
+.feed-nav{
+  text-decoration: none;
+}
+
+.feed-nav:hover{
+  cursor:pointer
+}
+
+#about{
+  clear:both;
+  width:65%;
+  margin:auto;
+  padding-top: 5.5em;
+}
+
+#about-container{
+  text-align: left;
+  text-transform: none !important;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 23px;
+}
+
+#about-container p{
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+#about-container a{
+  border-bottom: 1px solid;
+}
+
+#about-container a:hover {
+  border-bottom: none;
+}
+
+#logo{
+  text-align: center;
+}
+
+#logo a{
+  border-bottom: none !important;
+}
+
+#footer {
+  width: 100%;
+  height: 200px;
+}
+
+#preloader{
+  position:fixed;
+  height:10%;
+  width:10%;
+  z-index:10;
+  top:45%;
+  left:45%;
+  display: none;
+}
+
